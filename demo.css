@@ -1,0 +1,197 @@
+.back {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top right, #33ccff 0%, #ff00ff 75%);
+}
+.box{
+    width:400px;
+    height: 550px;
+
+    position: absolute;
+    top: 10%;
+    left:40%;
+    bottom: 10%;
+    right: 40%;
+    margin:none;
+   
+    background: whitesmoke;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.box input[type="text"],.box input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border-bottom: 1px solid rgb(15, 15, 15);
+    outline: none;
+    margin-right: 80px;
+    padding-right: 130px;
+    padding-bottom: 10px;
+   
+}
+.box p{
+    
+    font-weight: bold;
+    text-align: center;
+
+
+   
+    
+}
+
+    
+
+
+.button {
+   
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 15px;
+    padding: 7px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(180, 170, 170);
+    
+    border-radius: 200px;
+    width: 310px;
+    height: 40px;
+    
+    
+    cursor: pointer;
+    border-color: none;
+    background: linear-gradient(to top right, #33ccff 0%, #ff00ff 75%);
+    
+}
+
+
+
+
+#b1,#b2{
+    padding-right: 175px;
+}
+#b3{
+    padding-left: 130px;
+    position: absolute;
+    left: 100px;
+    top: 190px;
+
+}
+#b4{
+    
+    position: absolute;
+    left: 46px;
+    top: 230px;
+}
+#b1{
+    position: absolute;
+    left:50px;
+    top: 70px;
+    font-size: larger;
+}
+#b2{
+    position: absolute;
+    left: 50px;
+    top: 130px;
+    font-size: larger;
+}
+.box input[type="text"]{
+    position: absolute;
+    left: 50px;
+    top: 90px;
+    font-family: monospace;
+
+}
+.box input[type="password"]{
+    position: absolute;
+    left: 49px;
+    top: 149px;
+    font-family: monospace;
+    
+}
+
+
+
+ .button:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+.container{
+    font-family: monospace;
+
+}
+#b5{
+    text-decoration: none;
+}
+.icon input[type="text"]{
+    padding-left: 40px;
+
+}
+.icon i{
+    position: absolute;
+    left: 55px;
+    top: 111px;
+    color: #aaa;
+}
+.icon2 input[type="password"]{
+    padding-left:40px ;
+
+}
+.icon2 i{
+    position: absolute;
+    left:54px;
+    top: 170px;
+    color: #aaa;
+}
+#q1{
+    font-family: ui-serif;
+    position: absolute;
+    left: 140px;
+    top: 310px;
+}
+#q2{
+    position: absolute;
+    left: 130px;
+    top: 340px;
+    cursor: pointer;
+    color: blue
+}
+#q3{
+    position: absolute;
+    left: 190px;
+    top: 340px;
+    cursor: pointer;
+    color: cadetblue;
+}
+#q4{
+    position: absolute;
+    left: 250px;
+    top: 340px;
+    cursor: pointer;
+    color: darkred;
+}  
+#q7{
+    font-family: ui-serif;
+    position: absolute;
+    left: 140px;
+    top: 450px;
+}
+#b8{
+    text-decoration: none;
+    font-family: ui-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 165px;
+    top: 480px;
+
+}
+.icon input[type="text"]:focus + i{
+    color:rgb(13, 13, 14);
+
+}
+.icon2 input[type="password"]:focus + i{
+    color: rgb(17, 19, 20);
+}
